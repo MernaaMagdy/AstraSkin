@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap');
+*{
+    font-family: "Edu QLD Beginner", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-color{
+    color:#3c2612 !important
+}
+.second-color{
+    color: #e4c9b6;
+}
+.secondary-color{
+    background-color:#ebe5c9 !important;
+}
+.main-secondary{
+    color: #3c2612 !important;
+}
+.main-secondary:hover{
+    color:#e4c9b6 !important;
+    transition:all ease 1s;
+    cursor: pointer;
+}
+.main-secondary{
+    color: #3c2612 !important;
+}
+/* navbar */
+.navbar{
+    background-color:#e6cfbf !important;
+}
+.icon,
+.nav-text{
+    color: #3c2612 !important;
+    font-weight: bold;
+}
+/* carousel */
+.carousel-item img{
+    height: 100vh;
+}
+.myicon{
+    color: #3c2612;
+    font-size: 30px;
+}
+.carousel-caption{
+    color:#e4c9b6 !important;
+    background-color: rgba(59, 45, 32,0.6);
+    border-radius: 20px;
+    bottom: 5rem;
+}
+.carousel-caption:hover{
+    background-color: #3c2612;
+    transition: all ease 0.7s;
+}
+.carousel-caption h5{
+    font-size: 35px;
+    margin-bottom: 20px !important;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.btn{
+    color:#3b2d20 ;
+    background-color:rgba(228, 201, 182,0.6) !important;
+    font-weight: bold;
+}
+.btn-light:hover{
+    background-color:#e4c9b6 !important;
+    border-radius: 30px !important;
+    transition: 1s ease all;
+}
+.carousel-indicators button{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: #3c2612 !important;
+}
+.carousel-indicators button:hover{
+    background-color:#e4c9b6 !important;
+} 
+/* offcanvas */
+.offcanv-img{
+    width: 250px !important;
+    height: 250px !important;
+}
+.offcanv-img:hover{
+    transform:scale(0.8);
+    transition:ease all 1s;
+}
+.offcanv-price{
+    margin-bottom:10px;
+    margin-top:20px !important;
+}
+.offcanv-p{
+    margin-top:5px;
+}
+.offcanv-price,
+.offcanv-p,
+.offcanv-title,
+.cart-button,
+.col p{
+    color:#5f4c3a !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.offcanva-header{
+    color:#5f4c3a;
+    font-weight: bold;
+}
+.offcanvas-body::-webkit-scrollbar {
+    width: 8px; 
+}
+.offcanvas-body::-webkit-scrollbar-track {
+    background: #e4c9b6;
+}
+.offcanvas-body::-webkit-scrollbar-thumb {
+    background-color: rgb(59, 45, 32,0.6);
+    border-radius: 4px;
+}
+.offcanvas-body::-webkit-scrollbar-thumb:hover {
+    background: #3b2d20;
+}
+/* products */
+.text-header{
+    border-bottom: #e4c9b6 solid 2px;
+    color: #3c2612;
+    font-weight: bold;
+}
+.card{
+    overflow: hidden;
+}
+.p-img{
+    height:300px;
+}
+.p-img:hover{
+    transform: scale(1.1);
+    transition: ease all 1s;
+}
+.card-body{
+    position: relative;
+}
+.p-heart{
+    position: absolute;
+    bottom:460px;
+    left:30px;
+}
+/* best seller */
+.best-seller h2{
+    color: #3c2612;
+    margin-top: 20px;
+}
+.bp-img{
+    height:230px !important;
+
+}
+.bp-card{
+    height: 370px !important;
+    overflow: hidden;
+}
+.best-icon-l{
+    left:-90px;
+}
+.best-icon-r{
+    right:-90px;
+}
+/* your-body */
+.row{
+    min-height: 200px !important;
+}
+.your-body{
+    height: 30vh !important;
+}
+.full-img{
+    width: 600px;
+    height: 400px;
+}
+.your-body h2{
+    font-size: 30px;
+    color: #3b2d20;
+    line-height:1.5;
+}
+.your-body-btn{
+    background-color: #3b2d20 !important;
+    color: #e4c9b6 !important;
+    margin: 20px;
+    font-size:large;
+}
+.your-body-btn:hover{
+    color: #e4c9b6 !important;
+    background-color: #3b2d20 !important;
+}
+/* care */
+.care-img{
+    width: 500px;
+    height:250px;
+}
+.care p{
+    color: #3c2612 !important;
+}
+.care h3,
+.about h2{
+    border-bottom:2px solid #e4c9b6;
+    margin-bottom: 20px;
+}
+/* contact */
+.contact{
+    height: 50vh;
+    background-color:#e6cfbf ;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3b2d20;
+}
+.contact-span{
+    width: 80px;
+    border-radius: 20px 0 0 20px !important;
+    color: #e4c9b6;
+    background-color: #3b2d20;
+}
+.contact h2{
+    border-bottom: 2px solid rgba(59, 45, 32, 0.2);
+}
+.contact input:focus{
+        outline: none;
+        box-shadow: none;
+}
+/* about */
+.about-img{
+    width: 600px ;
+    height: 500px;
+    margin: 50px;
+}
+.about p{
+    color: #3b2d20;
+}
+.features{
+    height: 10vh;
+}
+/* testimonials */
+.test-q-l{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    font-size: 30px;
+    color: #e4c9b6;
+}
+/* services */
+.services{
+    background-color: #e4c9b6;
+}
+.serv-text{
+    border-bottom: 2px solid rgba(59, 45, 32, 0.2);
+}
+/* footer */
+footer{
+    background-color: #e4c9b6;
+}
+.footer-text{
+    border-right: #3b2d20 1px solid;
+    padding-right: 10px;
+}
+footer input{
+    background-color: #e4c9b6;
+    border: none;
+    border-bottom: 1PX solid #3b2d20;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.footer-btn{
+    background-color: #3b2d20 !important;
+    color: #e4c9b6;
+}
+.footer-btn:hover{
+    background-color: #3b2d20 !important;
+    color: #e4c9b6 !important;
+}
+.icon{
+    margin-right: 7px;
+}

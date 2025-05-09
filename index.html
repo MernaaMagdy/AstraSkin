@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstraSkin</title>
+    <link rel="shortcut icon" href="images/logo-websites-31330.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/all.min.css" />
+</head>
+<body style="background-color: rgba(228, 201, 182, 0.2)">
+<main>
+    <!-- nav -->
+<nav class="navbar fixed-top w-100 navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+            <a class="navbar-brand" href="#" fw-bold>
+                <img src="images/logo-websites-31330.png" alt="" width="50" height="50"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item m-2">
+                    <a class="nav-link active nav-text" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item dropdown m-2">
+                    <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PRODUCTS
+                    </a>
+                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#body">Body Care</a></li>
+                        <li><a class="dropdown-item" href="#face">Face Care</a></li>
+                        <li><a class="dropdown-item" href="#hair">Hair Care</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link nav-text" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link nav-text" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <div class="text-black">
+            <span><i class="icon fa-solid fa-circle-user m-2"></i></span>
+            <span><i class="icon fa-regular fa-heart m-2"></i></span>
+            <span><i class="icon fa-solid fa-magnifying-glass m-2"></i></span>
+            <a class="icon nav-item" data-bs-toggle="offcanvas" href="#offcanvasExample"role="button" aria-controls="offcanvasExample">
+            <spnan><i class="fa-solid fa-cart-shopping m-2"></i></spnan>
+            </a>
+        </div>
+    </div>
+</nav>
+    <!-- carousel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/home-1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Great Skin Starts Here.</h5>
+                    <p>
+                        Organic ingredients. Visible results. Skincare that loves your skin
+                    </p>
+                    <button class="btn btn-light">Shop Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/home-2.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Glow Up, Gorgeous!</h5>
+                    <p>From bold lips to flawless skin, we’ve got your beauty essentials covered.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/home-3.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Simple. Pure. Beautiful</h5>
+                    <p>Clean beauty solutions for a naturally stunning look.</p>
+                </div>
+            </div>
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <i class="fa-solid fa-angles-left myicon"></i>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <i class="fa-solid fa-angles-right myicon"></i>
+            <span class="visually-hidden">Next</span>
+        </button>
+</div>
+    <!-- products -->
+<section class="products text-center mt-5" id="all">
+    <div class="d-flex justify-content-center">
+        <h1 class="text-header pb-2">Products</h1>
+    </div>
+    <div class="mt-4 mb-5">
+        <a href="#all"><button class="btn btn-light m-2">All</button></a>
+        <a href="#best"><button class="btn btn-light m-2">Best Sellers</button></a>
+        <a href="#new"><button class="btn btn-light m-2">New Arrivals</button></a>
+        <a href="#off"><button class="btn btn-light m-2">Offers</button></a>
+    </div>
+    <div class="container">
+    <div class="d-flex justify-content-evenly flex-wrap">
+        <div class="card  m-2  text-center" style="width: 18rem">
+            <img src="images/product-1.jpg" class="card-img-top p-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+            <div class="card-body">
+            <div class="main-secondary mt-3 mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <p class="card-title fw-bold main-color">BotaniMist Hydrating Toner</p>
+                <p class="card-text fw-bold main-color">80$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+        <div class="card m-2  text-center" style="width: 18rem">
+            <img src="images/product-2.jpg" class="card-img-top p-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+            <div class="card-body">
+                <div class="main-secondary mt-3 mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="card-title fw-bold main-color">Amber Glow Facial Serum</p>
+                <p class="card-text fw-bold main-color">50$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+        <div class="card  m-2 text-center" style="width: 18rem">
+            <img src="images/product-3.jpg" class="card-img-top p-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+            <div class="card-body">
+                <div class="main-secondary mt-3 mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="card-title fw-bold main-color">WaterMelon Body Scrub</p>
+                <p class="card-text fw-bold main-color">60$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+        <div class="card  m-2 text-center" style="width: 18rem">
+            <img src="images/product-4.jpg" class="card-img-top p-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+            <div class="card-body">
+                <div class="main-secondary mt-3 mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="card-title fw-bold main-color">Red Vitality Elixir</p>
+                <p class="card-text fw-bold main-color">40$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+        <div class="card m-2  text-center" style="width: 18rem">
+            <img src="images/product-5.jpg" class="card-img-top p-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+            <div class="card-body">
+                <div class="main-secondary mt-3 mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="card-title fw-bold main-color">Citrus Bloom Essence</p>
+                <p class="card-text fw-bold main-color">60$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+        <div class="card  m-2 text-center" style="width: 18rem">
+            <img src="images/product-6.jpg" class="card-img-top p-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+            <div class="card-body">
+                <div class="main-secondary mt-3 mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="card-title fw-bold main-color">Chamomile Luxe Cream</p>
+                <p class="card-text fw-bold main-color">30$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+        <div class="card  m-2 text-center" style="width: 18rem">
+            <img src="images/product-7.jpg" class="card-img-top p-img" alt="..."data-bs-toggle="modal" data-bs-target="#exampleModal" />
+            <div class="card-body">
+                <div class="main-secondary mt-3 mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="card-title fw-bold main-color">Saffron Radiance Gel</p>
+                <p class="card-text fw-bold main-color">65$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+        <div class="card  m-2 text-center" style="width: 18rem">
+            <img src="images/product-8.jpg" class="card-img-top p-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" >
+            <div class="card-body">
+                <div class="main-secondary mt-3 mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="card-title fw-bold main-color">Green Tea Refresh Cleanser</p>
+                <p class="card-text fw-bold main-color">90$</p>
+                <button class="btn btn-light">Add To Cart</button>
+                <span><i class="icon fa-regular fa-heart p-heart"></i></span>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-light fw-bold m-4 ">See More</button>
+</div>
+</section>
+
+    <!-- best seller -->
+<section class="best-seller mt-5" id="best">
+        <div class="d-flex">
+            <h3 class="text-header mb-5 mx-5">Our BestSellers</h3>
+        </div>
+    <div class="container">
+        <div id="carouselExampleControls2" class="carousel slide carousell m-auto" data-bs-ride="carousel">
+            <div class="position-relative">
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                        <div class="d-flex justify-content-evenly flex-wrap">
+                            <div class="card bp-card m-2  text-center" style="width: 18rem">
+                                <img src="images/b-1.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">DewDrop Botanical Toner</p>
+                                    <p class="card-text fw-bold main-color">80$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="card m-2 bp-card text-center" style="width: 18rem">
+                                <img src="images/b-2.jpg"  class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Golden Radiance Elixir</p>
+                                    <p class="card-text fw-bold main-color">50$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                                <img src="images/b-3.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Pure Harmony Duo Set</p>
+                                    <p class="card-text fw-bold main-color">60$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                                <img src="images/b-4.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Revive+ Youth Elixir</p>
+                                    <p class="card-text fw-bold main-color">40$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class=" d-flex justify-content-evenly flex-wrap">
+                            <div class="card m-2 bp-card text-center" style="width: 18rem">
+                                <img src="images/b-5.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Citrus Glow Revive Cream</p>
+                                    <p class="card-text fw-bold main-color">60$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                                <img src="images/b-6.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">CalmBliss Chamomile Dew</p>
+                                    <p class="card-text fw-bold main-color">30$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                                <img src="images/b-7.jpg" class="card-img-top bp-img" alt="..."data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Saffron Light Radiance Ge</p>
+                                    <p class="card-text fw-bold main-color">65$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                                <img src="images/b-8.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Green Purity Cleansing Tonic</p>
+                                    <p class="card-text fw-bold main-color">90$</p>
+                                    <div class="main-secondary mt-3 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="second-color">5710 reviews</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            <button class="carousel-control-prev best-icon-l myicon" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                <i class="fa-solid fa-angle-left  "></i>
+                <span class="visually-hidden m-5 ">Previous</span>
+            </button>
+            <button class="carousel-control-next best-icon-r main-color" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                <i class="fa-solid fa-angle-right myicon  "></i>
+                <span class="visually-hidden ">Next</span>
+                
+            </button>
+    </div>
+    </div>
+</div>
+</div>
+</section>
+
+    <!-- new arrivals -->
+<section class="new-arrivals mt-5" id="new">
+    <div class="d-flex">
+        <h3 class="text-header mb-5 mx-5">New Arrivals</h3>
+    </div>
+<div class="container">
+    <div id="carouselExampleControls3" class="carousel slide carousell m-auto" data-bs-ride="carousel">
+        <div class="position-relative">
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                        <div class="d-flex justify-content-evenly flex-wrap">
+                            <div class="card bp-card m-2  text-center" style="width: 18rem">
+                                <img src="images/new-1.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">BotaniMist Hydrating Toner</p>
+                                    <p class="card-text fw-bold main-color">80$</p>
+                                    <a href="#" class="btn btn-light">Add To Cart</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 bp-card  text-center" style="width: 18rem">
+                                <img src="images/new-2.jpg"  class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Amber Glow Facial Serum</p>
+                                    <p class="card-text fw-bold main-color">50$</p>
+                                    <a href="#" class="btn btn-light">Add To Cart</a>
+                                </div>
+                            </div>
+                            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                                <img src="images/new-3.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">EcoBalance Skincare Duo</p>
+                                    <p class="card-text fw-bold main-color">60$</p>
+                                    <a href="#" class="btn btn-light">Add To Cart</a>
+                                </div>
+                            </div>
+                            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                                <img src="images/new-4.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                <div class="card-body">
+                                    <p class="card-title fw-bold main-color">Red Vitality Elixir</p>
+                                    <p class="card-text fw-bold main-color">40$</p>
+                                    <a href="#" class="btn btn-light">Add To Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class=" d-flex justify-content-evenly flex-wrap">
+                        <div class="card m-2 bp-card text-center" style="width: 18rem">
+                            <img src="images/new-5.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Citrus Bloom Essence</p>
+                                <p class="card-text fw-bold main-color">60$</p>
+                                <a href="#" class="btn btn-light">Add To Cart</a>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/new-6.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Chamomile Luxe Cream</p>
+                                <p class="card-text fw-bold main-color">30$</p>
+                                <a href="#" class="btn btn-light">Add To Cart</a>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/new-7.jpg" class="card-img-top bp-img" alt="..."data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Saffron Radiance Gel</p>
+                                <p class="card-text fw-bold main-color">65$</p>
+                                <a href="#" class="btn btn-light">Add To Cart</a>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/new-8.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Green Tea Refresh Cleanser</p>
+                                <p class="card-text fw-bold main-color">90$</p>
+                                <a href="#" class="btn btn-light">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev best-icon-l" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                    <i class="fa-solid fa-angle-left myicon "></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next best-icon-r" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                    <i class="fa-solid fa-angle-right myicon  main-color"></i>
+                    <span class="visually-hidden ">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+    <!-- offers -->
+<section class="offers mt-5" id="off">
+    <div class="d-flex">
+        <h3 class="text-header mb-5 mx-5">Offers</h3>
+    </div>
+<div class="container">
+    <div id="carouselExampleControls4" class="carousel slide carousell m-auto" data-bs-ride="carousel">
+    <div class="position-relative">
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                    <div class="d-flex justify-content-evenly flex-wrap">
+                        <div class="card bp-card m-2  text-center" style="width: 18rem">
+                            <img src="images/off-1.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                            <div class="card-body">
+                            
+                                <p class="card-title fw-bold main-color">BotaniMist Hydrating Toner</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">80$</p><span class="second-color m-2">70$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card m-2 bp-card text-center" style="width: 18rem">
+                            <img src="images/off-2.jpg"  class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Amber Glow Facial Serum</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">90$</p><span class="second-color m-2">50$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/off-3.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">EcoBalance Skincare Duo</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">70$</p><span class="second-color m-2">40$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/off4.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                            <div class="card-body">
+                                <p class="card-text fw-bold main-color">Red Vitality Elixir</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">50$</p><span class="second-color m-2">30$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="carousel-item ">
+                <div class=" d-flex justify-content-evenly flex-wrap">
+                        <div class="card m-2 bp-card text-center" style="width: 18rem">
+                            <img src="images/off-5.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Citrus Bloom Essence</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">90$</p><span class="second-color m-2">70$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/off-6.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Chamomile Luxe Cream</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">70$</p><span class="second-color m-2">50$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/off-7.jpg" class="card-img-top bp-img" alt="..."data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Saffron Radiance Gel</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">80$</p><span class="second-color m-2">60$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bp-card m-2 text-center" style="width: 18rem">
+                            <img src="images/off-8.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                            <div class="card-body">
+                                <p class="card-title fw-bold main-color">Green Tea Refresh Cleanser</p>
+                                <p class="card-text fw-bold main-color text-decoration-line-through d-inline">90$</p><span class="second-color m-2">80$</span>
+                                <div class="main-secondary mt-3 mb-3">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        <button class="carousel-control-prev best-icon-l" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+            <i class="fa-solid fa-angle-left myicon "></i>
+            <span class="visually-hidden m-5 ">Previous</span>
+        </button>
+        <button class="carousel-control-next best-icon-r" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+            <i class="fa-solid fa-angle-right myicon main-color"></i>
+            <span class="visually-hidden ">Next</span>
+            
+        </button>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+
+    <!-- your-body -->
+<secction class="your-body m-5">
+    <div class="row align-items-center" style="background-color:#e6cfbf">
+        <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <img src="images/nine.jpg" class="img-fluid full-img w-75 ">
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-6 m-auto ">
+            <h2>Starting a skincare routine can be overwhelming. We are here to simplify it and make your skin glow.</h2>
+            <button class="btn btn-light your-body-btn">See All Products</button>
+        </div>
+    </div>
+</section>
+
+    <!-- care -->
+<section class="care m-5">
+    <div class="container">
+    <div class="row m-5">
+        <div class="col-lg-6 col-md-5"> 
+            <img src="images/care1.jpg " class="care-img img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6" id="body">
+            <div class="text-center" >
+                <h3 class="main-color mt-4 fw-bold">BODY CARE</h3>
+                <P class="fw-bold">Indulge your skin with our luxurious Body Care Collection, designed to nourish, hydrate, and rejuvenate from head to toe.
+                        From rich body butters and silky lotions to exfoliating scrubs, every product is crafted with natural ingredients to leave your skin smooth, soft, and glowing.</P>
+                <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View</button>
+            </div>
+        </div>
+    </div>
+    <div class="row m-5" id="face">
+        <div class="col-lg-6 col-md-6 order-2 order-md-1">
+            <div class="w-auto text-center pt-5 ">
+                <h3 class="main-color mt-4 fw-bold">FACE CARE</h3>
+                <p class="fw-bold">Reveal your best complexion with our Face Care Collection, formulated to meet the unique needs of every skin type. Whether you're looking to cleanse,
+                    tone, moisturize, or treat specific concerns, our range includes gentle cleansers, hydrating serums, nutrient-rich masks, and more.</p>
+                <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">View</button>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-5 order-1 order-md-2">
+            <img src="images/care2.jpg" class="care-img img-fluid">
+        </div>
+    </div>
+    <div class="row m-5">
+        <div class="col-lg-6 col-md-5">
+            <img src="images/care3.jpg" class="care-img img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6" id="hair">
+            <div class="w-auto text-center pt-5">
+                <h3 class="main-color mt-4 fw-bold">HAIR CARE</h3>
+                <P class="fw-bold">Transform your hair care routine with our nourishing Hair Care Collection. From strengthening shampoos and conditioners to revitalizing oils and masks,
+                our products are designed to repair damage, enhance shine, and promote growth. Ideal for all hair types</P>
+                <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">View</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+    <!-- contact -->
+<section id="contact" class="contact text-center pt-md-2 mt-4 p-sm-0" id="contact">
+    <div class="w-50 mx-auto ">
+        <h2 class=" text-header mt-5 mb-5">Contact Us</h2>
+        <p class="contact-p pb-md-3  p-sm-0">
+            Have questions or need help? We’re here for you! Reach out to us anytime for product info, order support, or skincare advice.
+        </p>
+        <div class="input-group mb-3">
+            <span class="input-group-text contact-span fw-bold " id="basic-addon1">Join Us</span>
+            <input type="email" class="form-control" placeholder="Enter Your Email" aria-label="email" aria-describedby="basic-addon1">
+        </div>
+    </div>
+    
+</section>
+
+    <!--about -->
+<section class="about" id="about">
+        <div class="row align-items-center justify-content-around">
+            <div class="col-lg ">
+                <img src="images/about.jpg" class="img-fluid full-img about-img rounded-5  d-block mx-sm-auto ">
+            </div>
+            <div class="col-lg ">
+                <div class="text-center ">
+                    <h2 class="mx-5 w-auto ">About Us</h2>
+                    <p class="fw-bold fs-5 mt-3">At AstraSkin we believe that skincare is more than just a routine it’s a ritual of self-love and care. 
+                    Founded with a passion for natural beauty and wellness, our mission is to create products that nourish your skin and elevate your everyday experience.</p>
+                    <p class="fw-bold fs-5">We carefully craft each formula using clean, ethically sourced ingredients that are gentle, effective, and kind to the planet. Whether you’re beginning your skincare journey or refining your routine,
+                    we’re here to support your skin’s unique needs with honesty, transparency, and care.</p>
+                    <p class="fw-bold fs-5">Join us in celebrating healthy, glowing skin the natural way.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- features -->
+<section class="features mt-5 " style="background-color: #e6cfbf">
+    <div class="feature row text-center mt-2 pt-2 ">
+        <div class="col ">
+            <div class="mb-2">
+                <i class="fa-solid fa-leaf icon"></i>
+                <p class="fw-bold mb-0">Affordable</p>
+            </div>  
+        </div>
+        <div class="col">
+            <div class="mb-2">
+                <i class="fa-solid fa-star icon"></i>
+                <p class="fw-bold mb-0">Sustainable</p>
+            </div>  
+        </div>
+        <div class="col">
+            <div class="mb-2">
+                <i class="fa-solid fa-sun icon"></i>
+                <p class="fw-bold mb-0">All Skin Types</p>     
+            </div>  
+        </div>
+        <div class="col">
+            <div class="mb-2">
+                <i class="fa-brands fa-gratipay icon"></i>
+                <p class="fw-bold mb-0">Cruelty Free</p>
+            </div>  
+        </div>
+    </div>
+</section>
+
+    <!-- also like -->
+    <section class="also-like mt-5">
+        <div class="d-flex">
+            <h3 class="text-header mb-5 mx-5">You May Also Like</h3>
+        </div> 
+        <div class=" d-flex justify-content-evenly flex-wrap">
+            <div class="card m-2 bp-card text-center" style="width: 18rem">
+                <img src="images/also-1.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                <div class="card-body">
+                    <p class="card-title fw-bold main-color">Citrus Bloom Essence</p>
+                    <p class="card-text fw-bold main-color">60$</p>
+                    <a href="#" class="btn btn-light">Add To Cart</a>
+                </div>
+            </div>
+            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                <img src="images/also-2.jpg" class="card-img-top bp-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                <div class="card-body">
+                    <p class="card-title fw-bold main-color">Chamomile Luxe Cream</p>
+                    <p class="card-text fw-bold main-color">30$</p>
+                    <a href="#" class="btn btn-light">Add To Cart</a>
+                </div>
+            </div>
+            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                <img src="images/also-3.jpg" class="card-img-top bp-img" alt="..."data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                <div class="card-body">
+                    <p class="card-title fw-bold main-color">Saffron Radiance Gel</p>
+                    <p class="card-text fw-bold main-color">65$</p>
+                    <a href="#" class="btn btn-light">Add To Cart</a>
+                </div>
+            </div>
+            <div class="card bp-card m-2 text-center" style="width: 18rem">
+                <img src="images/also-4.jpg" class="card-img-top bp-img" alt="..."data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                <div class="card-body">
+                    <p class="card-title fw-bold main-color">Saffron Radiance Gel</p>
+                    <p class="card-text fw-bold main-color">65$</p>
+                    <a href="#" class="btn btn-light">Add To Cart</a>
+                </div>
+            </div>
+    </section> 
+
+    <!--services -->
+<section class="services mt-5">
+    <div class="row mt-">
+        <div class="col-lg-5 ">
+            <div class="d-flex justify-content-center w-75 h-100 d-block mx-sm-auto mx-lg-0 ">
+                <img src="images/services.jpg" class="img-fluid ">
+            </div>
+        </div>
+        <div class="col-lg-7">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center">
+                        <h2 class="text-header m-4">Why Choose Our Products</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="fw-bold main-color m-3 serv-text">100% Natural</h4>
+                    <p>Our formulas are made with carefully selected, all-natural ingredients sourced from plants and minerals. Free from harmful chemicals, our products are safe for everyday use.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="fw-bold main-color m-3 serv-text">No Side Effects</h4>
+                    <p>Clinically tested and dermatologist-approved, our skincare products are designed to work in harmony with your skin, ensuring no irritation, redness, or unwanted reactions.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="fw-bold main-color m-3 serv-text">Suitable for All Skin Types</h4>
+                    <p>Whether your skin is oily, dry, sensitive, or combination, our inclusive formulas adapt to meet your skin’s unique needs, offering visible results without compromise.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="fw-bold main-color m-3 serv-text">Eco-Friendly & Sustainable</h4>
+                    <p>We care about the planet as much as your skin. Our packaging is eco-conscious, recyclable, and minimalistic, supporting a cleaner future with every purchase.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+    <!-- testimonials -->
+<section class="testimon m-5">
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class=" d-inline-block text-header">What Our Customers Say About AstraSkin</h3>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+                <div class="card w-75 mt-2">
+                    <div class="card-body">
+                        <h5 class="card-title main-colo">Sarah M.</h5>
+                        <p class="card-text">“Citrus Bloom Essence made my skin glow like never before.”</p>
+                        <div class="main-secondary mt-3 mb-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <i class="fa-solid fa-quote-left test-q-l"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card w-75 mt-2">
+                    <div class="card-body">
+                        <h5 class="card-title main-colo">Amina R.</h5>
+                        <p class="card-text">“Chamomile Luxe Cream is soothing, light, and smells so lovely.”</p>
+                        <div class="main-secondary mt-3 mb-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <i class="fa-solid fa-quote-left test-q-l"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card w-75 mt-2 ">
+                    <div class="card-body ">
+                        <h5 class="card-title main-colo">Leila T.</h5>
+                        <p class="card-text">“Green Tea Cleanser leaves my skin clean, soft, and refreshed.”</p>
+                        <div class="main-secondary mt-3 mb-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <i class="fa-solid fa-quote-left test-q-l"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card w-75 mt-2">
+                    <div class="card-body ">
+                        <h5 class="card-title main-colo">Dana K.</h5>
+                        <p class="card-text">“Saffron Gel gave me instant radiance and smooth texture.”</p>
+                        <div class="main-secondary mt-3 mb-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <i class="fa-solid fa-quote-left test-q-l"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card w-75 mt-2">
+                    <div class="card-body">
+                        <h5 class="card-title main-color">Noor H.</h5>
+                        <p class="card-text">“EcoBalance Duo deeply hydrates and leaves skin feeling amazing.”</p>
+                        <div class="main-secondary mt-3 mb-3">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <i class="fa-solid fa-quote-left test-q-l"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- offconvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title offcanv-title" id="offcanvasExampleLabel">
+            Shopping Bag
+        </h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="text-center">
+            <img src="images/b-1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-thumbnail offcanv-img"/>
+            <p class="offcanv-p">Vitamin C Serum</p>
+            <p class="offcanv-price">60$</p>
+        </div>
+        <hr />
+        <div class="text-center">
+            <img src="images/product-4.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-thumbnail offcanv-img" />
+            <p class="offcanv-p">Hyaluronic Acid Serum</p>
+            <p class="offcanv-price">80$</p>
+        </div>
+        <hr />
+        <div class="text-center">
+            <img src="images/off-5.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-thumbnail offcanv-img"/>
+            <p class="offcanv-p">Niacinamide Serum</p>
+            <p class="offcanv-price">90$</p>
+        </div>
+        <hr />
+        <div class="text-center">
+            <img src="images/also-1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-thumbnail offcanv-img"/>
+            <p class="offcanv-p">Daily Cleanser</p>
+            <p class="offcanv-price">40$</p>
+        </div>
+        <hr />
+        <div class="text-center">
+            <img src="images/new-7.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-thumbnail offcanv-img"/>
+            <p class="offcanv-p">The Restoring Scrub</p>
+            <p class="offcanv-price">50$</p>
+        </div>
+        <hr />
+        <h5 class="text-center offcanva-header">Total:320$</h5>
+        <div class="text-center">
+            <button class="btn btn-light cart-button">CONTINUE SHOPPING</button>
+            <button class="btn btn-light cart-button">CHECK OUT</button>
+        </div>
+    </div>
+</div>
+
+    <!--product modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title main-color fw-bold" id="exampleModalLabel">Product Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/product-3.jpg" class="d-block w-100" alt="..." style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/pd-2.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/pd-3.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <i class="fa-solid fa-angle-left myicon"></i>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <i class="fa-solid fa-angle-right myicon"></i>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h4 class="fw-bold main-color">WaterMelon Body Scrub</h4>
+                        <p>A refreshing scrub with watermelon extract that smooths and softens skin</p>
+                        <p class="main-color">Price: 60$</p>
+                        <button class="btn btn-light">Add To Bag
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- body modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title main-color fw-bold" id="staticBackdropLabel">Collection Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/body-care-1.jpg" class="d-block w-100" alt="..." style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/body-care-2.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/body-care-3.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+                                <i class="fa-solid fa-angle-left myicon"></i>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+                                <i class="fa-solid fa-angle-right myicon"></i>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h4 class="fw-bold main-color">Body Care Collection</h4>
+                        <p>A luxurious body care collection that includes body lotion, body wash, and body cream—crafted to hydrate, cleanse, and soften your skin with gentle, nourishing ingredients.</p>
+                        <p class="main-color">Price: 150$</p>
+                        <button class="btn btn-light">Add To Bag
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+    <!-- face modal -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title main-color fw-bold" id="staticBackdropLabel">Collection Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/face-care-1.jpg" class="d-block w-100" alt="..." style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/face-care-2.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/face-care-3.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="prev">
+                                <i class="fa-solid fa-angle-left myicon"></i>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="next">
+                                <i class="fa-solid fa-angle-right myicon"></i>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h4 class="fw-bold main-color">Face Care Collection</h4>
+                    <p>A complete face care collection featuring face wash, serum, and moisturizer—designed to cleanse, nourish, and hydrate your skin for a healthy, radiant glow.</p>
+                        <p class="main-color">Price: 200$</p>
+                        <button class="btn btn-light">Add To Bag
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- hair modal -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title main-color fw-bold" id="staticBackdropLabel">Collection Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/hair-care-1.jpg" class="d-block w-100" alt="..." style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/hair-care-2.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/hair-care-3.jpg" class="d-block w-100" alt="..."  style="height: 300px !important;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="prev">
+                                <i class="fa-solid fa-angle-left myicon"></i>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="next">
+                                <i class="fa-solid fa-angle-right myicon"></i>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h4 class="fw-bold main-color">Hair Care Collection</h4>
+                    <p>A nourishing hair care collection that includes shampoo, conditioner, hair mask, and serum—crafted to cleanse, repair, and deeply strengthen your hair for a smooth, healthy finish.</p>
+                        <p class="main-color">Price: 300$</p>
+                        <button class="btn btn-light">Add To Bag
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<footer class="mb-0 pb-0">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-4 footer-text m-2">
+                <div class="">
+                    <h4 class="main-color fw-bold">AstraSkin</h4>
+                    <p class="main-color">We offer premium skincare products made from natural ingredients, carefully selected to suit all skin types. Our mission is to help you achieve healthy, radiant skin with safe and effective solutions.</p>
+                </div>
+            </div>
+            <div class="col-4 footer-text m-2">
+                <div class="footer-two text-center justify-content-between">
+                    <h4 class="main-color fw-bold">Get In Touch</h4>
+                    <input type="email" placeholder="Enter Your Email" class=" text-center"> 
+                    <button type="button" class="btn btn-light d-block mt-3 footer-btn mx-auto">SUBSCRIBE</button>
+                </div>
+                
+            </div>
+            <div class="col-3 text-center justify-content-between">
+                <h4 class="main-color fw-bold">CONTACT US</h4>
+                <div class="icons main-col m-3">
+                    <a href=""class="link-light text-decoration-none">
+                        <i class="fa-brands fa-facebook icon fs-3"></i>
+                    </a>
+                    <a href=""class="link-light text-decoration-none">
+                        <i class="fa-brands fa-square-instagram icon fs-3"></i>
+                    </a>
+                    <a href=""class="link-light text-decoration-none">
+                        <i class="fa-brands fa-square-x-twitter icon fs-3"></i>
+                    </a>
+                    <a href=""class="link-light text-decoration-none">
+                        <i class="fa-brands fa-youtube icon fs-3"></i>
+                    </a>
+                </div>
+                <i class="fa-solid fa-phone icon"></i>
+                <span class="fw-bold main-color">0123456789</span>
+                <div class="mt-2">
+                    <i class="fa-solid fa-location-dot main-color"></i>
+                    <span class="main-color fw-bold">Alexandria Egypt</span>
+                </div>
+            </div>
+        </div>
+    </div>   
+</footer >
+
+<script src="scripts/bootstrap.bundle.min.js"></script>
+<script src="scripts/all.min.js"></script>
+</body>
+</html>
