@@ -256,27 +256,6 @@
 footer{
     background-color: #e4c9b6;
 }
-.footer-text{
-    border-right: #3b2d20 1px solid;
-    padding-right: 10px;
-}
-footer input{
-    background-color: #e4c9b6;
-    border: none;
-    border-bottom: 1PX solid #3b2d20;
-}
-input:focus{
-    outline: none;
-    box-shadow: none;
-}
-.footer-btn{
-    background-color: #3b2d20 !important;
-    color: #e4c9b6;
-}
-.footer-btn:hover{
-    background-color: #3b2d20 !important;
-    color: #e4c9b6 !important;
-}
-.icon{
-    margin-right: 7px;
+.footer-h3{
+    border-bottom:2px solid #3b2d20; ;
 }
